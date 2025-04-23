@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --asosiy-orqa-fon: #F4F7FA;
+    --asosiy-text: #262626;
+    --yordamchi-rang: #273895;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
