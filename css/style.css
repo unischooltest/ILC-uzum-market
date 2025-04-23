@@ -12,4 +12,64 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: var(--asosiy-orqa-fon);
+    color: var(--asosiy-text);
+}
+
+body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body button {
+    background-color: transparent;
+    border: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.logobilantekst {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo h1 {
+    font-weight: 400;
+    font-size: 19px;
+    max-width: 119px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link a {
+    color: var(--yordamchi-rang);
+    font-weight: 600;
+}
+
+.link button {
+    background: linear-gradient(326deg, rgb(38, 65, 209) 0%, rgb(51, 51, 163) 100%);
+    border-radius: 7px;
+    padding: 20px 30px;
+    color: white;
 }
